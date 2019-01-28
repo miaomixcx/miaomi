@@ -1,0 +1,21 @@
+<!--pages/storeDetails/storeDetails.wxml-->
+<view class='banner'>
+  <view class='bannerPic'></view>
+</view>
+<view class='main'>
+  <view class='mainTitle'>
+    <text class='title'>望京店</text>
+  </view>
+  <view class='positionAndPhone'>
+    <image src='../../image/dizhi2.png' class='position'></image>
+    <text class='content'>北京市朝阳区三里屯太古里</text>
+    <image src='../../image/phone.png' class='phone'></image>
+  </view>
+  <view class='timeAndYingye'>
+    <image src='../../image/time.png' class='time'></image>
+    <text class='yingye'>7:00～23:00 营业</text>
+  </view>
+</view>
+<view class='buy'>
+  立即选购
+</view>

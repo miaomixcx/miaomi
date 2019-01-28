@@ -1,0 +1,58 @@
+/* components/header/header.wxss */
+.header{
+  width: 688rpx;
+  height: 56rpx;
+  background: #fff;
+  padding: 16rpx 30rpx 16rpx 32rpx;
+  display: flex;
+  justify-content: space-between;
+  box-shadow:0rpx 8rpx 8rpx 0rpx rgba(215,214,214,0.5);
+}
+.position{
+  width: 196rpx;
+  height: 34rpx;
+  background: ;
+  margin-top: 10rpx;
+  display: flex;
+  justify-content: space-between
+}
+.position .dizhi{
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 4rpx
+}
+.position .txt{
+  font-size: 32rpx;
+  line-height: 34rpx;
+  color: #404040;
+  font-weight: 500;
+}
+.position .xiala{
+  width: 22rpx;
+  height: 22rpx;
+  margin-top: 8rpx;
+}
+.search{
+  width: 340rpx;
+  height: 56rpx;
+  position: relative
+}
+.search>input{
+  width: 280rpx;
+  height: 100%;
+  border-radius: 28rpx;
+  background: #F5F5F5;
+  padding-left: 60rpx;
+}
+.search>.ipt{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #B6B5B6
+}
+.chazhao{
+  width: 28rpx;
+  height: 28rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 14rpx
+}

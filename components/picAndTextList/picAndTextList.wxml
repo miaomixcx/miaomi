@@ -1,0 +1,9 @@
+<!--components/picAndTextList/picAndTextList.wxml-->
+<view class='pic_text'>
+  <view class='pic_text_case'>
+    <view class='image'></view>
+    <text class='tx1'>欧式牛角包</text>
+    <text class='tx2'>飘香可口 奶香浓郁</text>
+    <text class='tx3'>重量：90g  月售：35</text>
+  </view>
+</view>

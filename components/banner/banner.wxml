@@ -1,0 +1,10 @@
+<!--components/banner/banner.wxml-->
+<view class='swiper-all'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='swiper'>
+    <block wx:for="{{imgUrls}}" class="swiper-image">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

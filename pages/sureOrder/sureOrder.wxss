@@ -1,0 +1,128 @@
+/* pages/sureOrder/sureOrder.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #FAFAFA
+}
+.header{
+  width: 100%;
+  height: 156rpx;
+  background: pink;
+  position: relative
+}
+.position{
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 30rpx;
+  margin-top: 64rpx;
+  float: left
+}
+.storeName{
+  display: block;
+  width:84rpx;
+  height:40rpx;
+  font-size:28rpx;
+  font-family:PingFangSC-Medium;
+  font-weight:600;
+  color:rgba(53,53,53,1);
+  line-height:40rpx;
+  float: left;
+  margin-top: 28rpx;
+  margin-left: 30rpx;
+}
+.storeAddress{
+  display: block;
+  width:360px;
+  height:40rpx;
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(53,53,53,1);
+  line-height:40rpx;
+  float: left;
+  position: absolute;
+  left: 88rpx;
+  top: 76rpx;
+}
+.right{
+  width: 16rpx;
+  height: 26rpx;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 66rpx;
+}
+.peisongIdea{
+  width: 690rpx;
+  height: 286rpx;
+  background: pink;
+  margin-top: 20rpx;
+  padding: 0rpx 30rpx;
+}
+.title{
+  display: block;
+  width:112rpx;
+  height:40rpx;
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(53,53,53,1);
+  line-height:40rpx;
+  margin-top: 26rpx;
+}
+.fangshi{
+  width: 100%;
+  height: 106rpx;
+  background: orange;
+  margin-top: 34rpx;
+}
+/* .nowPeisong{
+  width: 214rpx;
+  height: 104rpx;
+  background: #fff;
+  margin-top: 34rpx;
+  border-radius: 10rpx;
+  float: left;
+  font-size: 28rpx;
+  line-height: 104rpx;
+  text-align: center;
+  color: rgba(255,76,77,1);
+  border: 1rpx solid #ccc
+}
+.nowPeisong:hover{
+  border-color:rgba(255,76,77,1)
+}
+.orderPeisong{
+  width: 214rpx;
+  height: 104rpx;
+  background: #fff;
+  margin-top: 34rpx;
+  border-radius: 10rpx;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  line-height: 104rpx;
+  text-align: center;
+  color: #000;
+  border: 1rpx solid #ccc
+}
+.orderPeisong:hover{
+ border-color:rgba(255,76,77,1)
+}
+.storeZiti{
+  width: 214rpx;
+  height: 104rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin-top: 34rpx;
+  float: left;
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  line-height: 104rpx;
+  text-align: center;
+  color: #000;
+  border: 1rpx solid #ccc
+}
+.storeZiti:hover{
+  border-color:rgba(255,76,77,1)
+} */

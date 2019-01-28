@@ -1,0 +1,11 @@
+<!--components/top/top.wxml-->
+<scroll-view scroll-x="true">
+
+  <view class="navbar">
+  <view wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">
+    <view class='eng'>{{item.eng}}</view>
+    <view>{{item.cn}}</view>
+  </view>
+</view>
+
+</scroll-view>

@@ -1,0 +1,9 @@
+<!--components/search/search.wxml-->
+<view class='search'>
+  <view class='left'>
+    <image class='chazhao' src='../../image/sousuo.png'></image>
+    <input class='sousuo' placeholder='热门搜索数据'></input>
+    <image class='cancle' src='../../image/close.png'></image>
+  </view>
+  <view class='btn'>搜索</view>
+</view>

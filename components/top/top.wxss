@@ -1,0 +1,31 @@
+/* components/top/top.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #F7F7F7;
+}
+.navbar{
+  height: 80rpx;
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  width: 140rpx;
+  padding-top: 8rpx;
+  font-size: 28rpx;
+  line-height: 30rpx;
+  position: relative;
+  text-align: center;
+  color: #999;
+  flex-shrink: 0;
+  background: #fff
+}
+.eng{
+  font-size: 20rpx
+}
+.navbar .item.active{
+  background: #FF4C4D;
+  color: #fff
+}

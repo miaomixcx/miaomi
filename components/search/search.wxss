@@ -1,0 +1,50 @@
+/* components/search/search.wxss */
+.search{
+  width: 720rpx;
+  height: 72rpx;
+  background: #fff;
+  padding-top: 16rpx;
+  padding-left: 30rpx
+}
+.left{
+  width: 546rpx;
+  height: 56rpx;
+  background:#F5F5F5;
+  float: left;
+  padding-left: 30rpx;
+  border-radius: 28rpx;
+}
+.chazhao{
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 14rpx;
+  float: left
+}
+.sousuo{
+  width: 450rpx;
+  height: 56rpx;
+  background: #F5F5F5;
+  font-size: 28rpx;
+  line-height: 56rpx;
+  color: #B2B2B2;
+  float: left;
+  padding-left: 12rpx
+} 
+.btn{
+  width:100rpx;
+  height:56rpx;
+  background:rgba(255,76,77,1);
+  border-radius:28rpx;
+  float: left;
+  margin-left: 14rpx;
+  font-size: 28rpx;
+  line-height: 56rpx;
+  color: #fff;
+  text-align: center
+}
+.cancle{
+  width: 32rpx;
+  height: 32rpx;
+  float: left;
+  margin-top:12rpx 
+}

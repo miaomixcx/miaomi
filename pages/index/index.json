@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "banner":"../../components/banner/banner",
+    "position":"../../components/header/header",
+    "search":"../../components/search/search",
+    "top":"../../components/top/top",
+    "listOfPicAndText":"../../components/listOfPicAndTexts/listOfPicAndText"
+  },
+  "navigationBarTitleText": "伴屋市集"
+}

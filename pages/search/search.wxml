@@ -1,0 +1,11 @@
+<!--pages/search/search.wxml-->
+<search/>
+<view class='main'>
+  <view class='mainHead'>
+    <text class='mainTitle'>热门搜索</text>
+    <text class='change'>换一批</text>
+  </view>
+  <view class='caseList'>
+    <view class='case'>澳洲基围虾</view>
+  </view>
+</view>

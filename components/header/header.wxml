@@ -1,0 +1,13 @@
+<!--components/header/header.wxml-->
+<view class='header'>
+  <view class='position'>
+    <image src='../../image/dizhi.png' class='dizhi'></image>
+    <text class='txt'>{{txt}}</text>
+    <image src='../../image/xiala.png' class='xiala'></image>
+  </view>
+  <view class='search'>
+    <image src='../../image/sousuo.png' class='chazhao'></image>
+    <input placeholder='搜索商品' class='ipt'></input>
+
+  </view>
+</view>

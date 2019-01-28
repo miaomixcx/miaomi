@@ -1,0 +1,15 @@
+<!--pages/sureOrder/sureOrder.wxml-->
+<view class='header'>
+  <image class='position' src='../../image/dizhi2.png'></image>
+  <text class='storeName'>霍营店</text>
+  <text class='storeAddress'>国风美唐综合楼3号门712号</text>
+  <image class='right' src='../../image/right.png'></image>
+</view>
+<view class='peisongIdea'>
+  <text class='title'>配送方式</text>
+  <view class='fangshi'>
+    <!-- <view class='nowPeisong'>立即配送</view>
+    <view class='orderPeisong'>预约时间</view>
+    <view class='storeZiti'>门店自提</view> -->
+  </view>
+</view>

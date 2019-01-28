@@ -1,0 +1,41 @@
+<!--pages/shoppingCar/shoppingCar.wxml-->
+<view class='goods'>
+  <view class='case'>
+    <icon type="success" color='red' class='select'></icon>
+    <image class='goodPic' src=''></image>
+    <text class='caseName'>葡萄350g/份</text>
+    <text class='vipPrice'>¥9.34</text>
+    <image src='../../image/hui.png' class='vip'></image>
+    <view class='casePrice'>
+      <text class='yuanjia'>¥19.34</text>
+      <view class='cancel'></view>
+    </view>
+    <view class='disAndAdd'>
+      <image src='../../image/jian.png' class='dis'></image>
+      <text class='num'>1</text>
+      <image src='../../image/jia.png' class='add'></image>
+    </view>
+  </view>
+  <view class='case'>
+    <icon type="success" color='red' class='select'></icon>
+    <image class='goodPic' src=''></image>
+    <text class='caseName'>烟台红富士350g/份</text>
+    <text class='vipPrice'>¥9.34</text>
+    <image src='../../image/hui.png' class='vip'></image>
+    <view class='casePrice'>
+      <text class='yuanjia'>¥19.34</text>
+      <view class='cancel'></view>
+    </view>
+    <view class='disAndAdd'>
+      <image src='../../image/jian.png' class='dis'></image>
+      <text class='num'>6</text>
+      <image src='../../image/jia.png' class='add'></image>
+    </view>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='left'>
+    <text class='totalPrice'>¥9.34</text>
+  </view>
+  <view class='goPay'>去结算</view>
+</view>
