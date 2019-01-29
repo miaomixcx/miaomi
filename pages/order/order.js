@@ -5,9 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    navbar: ['全部订单', '已完成', '未完成'],
+    currentTab:0,
+    isHide:false
   },
-
+  navbarTap: function (e) {
+    this.setData({
+      currentTab: e.currentTarget.dataset.idx
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

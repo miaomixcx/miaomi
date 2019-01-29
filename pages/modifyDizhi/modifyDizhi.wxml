@@ -1,0 +1,29 @@
+<!--pages/modifyDizhi/modifyDizhi.wxml-->
+
+  <view class='main'>
+  <view class='main-center'>
+  <view>
+    <label>收货人</label>
+    <input type='text' placeholder='啦啦啦'></input>
+  </view>
+  <view>
+    <label>联系电话</label>
+    <input type='text' placeholder='12312341234'></input>
+  </view>
+  <view>
+    <label>所在地区</label>
+    <input type='text' placeholder='北京市昌平区XXXX'></input>
+    <image src='../../image/right.png'></image>
+  </view>
+  <view>
+    <label>详细地址</label>
+    <input type='text' placeholder='国风美唐XXXXXX'></input>
+  </view>
+  </view>
+</view>
+<view class='set'>
+  <text class='address'>设为默认地址</text>
+  <view class='qeihuan'></view>
+</view>
+
+

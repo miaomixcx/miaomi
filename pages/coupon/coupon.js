@@ -1,4 +1,4 @@
-// pages/shoppingCar/shoppingCar.js
+// pages/coupon/coupon.js
 Page({
 
   /**

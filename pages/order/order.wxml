@@ -1,2 +1,168 @@
 <!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<view wx:if="{{isHide}}">
+  <view class='navbar'>
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+  </view>
+  <view hidden="{{currentTab!==0}}">
+    <view class='case-all'>
+      <view class='case'>
+        <view class='caseTimeAndStatus'>
+          <text class='time'>2019.01.10 12:13:22</text>
+          <text class='status'>配送中</text>
+          <view class='orderInfo'>
+            <view class='left'>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/more.png' class='more'></image>
+            </view>
+            <view class='right'>
+              <text class='price'>￥129.34</text>
+              <text class='num'>共5件</text>
+            </view>
+
+          </view>
+          <view class='btn1'>查看物流</view>
+          <view class='btn2'>确认收货</view>
+        </view>
+      </view>
+
+    </view>
+    <view class='case-all'>
+      <view class='case'>
+        <view class='caseTimeAndStatus'>
+          <text class='time'>2019.01.10 12:13:22</text>
+          <text class='status'>已完成</text>
+          <view class='orderInfo'>
+            <view class='left'>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/more.png' class='more'></image>
+            </view>
+            <view class='right'>
+              <text class='price'>￥129.34</text>
+              <text class='num'>共5件</text>
+            </view>
+
+          </view>
+
+          <view class='btn2'>再来一单</view>
+        </view>
+      </view>
+
+    </view>
+    <view class='case-all'>
+      <view class='case'>
+        <view class='caseTimeAndStatus'>
+          <text class='time'>2019.01.10 12:13:22</text>
+          <text class='status'>带自提</text>
+          <view class='orderInfo'>
+            <view class='left'>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/more.png' class='more'></image>
+            </view>
+            <view class='right'>
+              <text class='price'>￥129.34</text>
+              <text class='num'>共5件</text>
+            </view>
+
+          </view>
+          <view class='btn1'>取货码</view>
+          <view class='btn2'>确认收货</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view hidden="{{currentTab!==1}}">
+    <view class='case-all'>
+      <view class='case'>
+        <view class='caseTimeAndStatus'>
+          <text class='time'>2019.01.10 12:13:22</text>
+          <text class='status'>已完成</text>
+          <view class='orderInfo'>
+            <view class='left'>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/more.png' class='more'></image>
+            </view>
+            <view class='right'>
+              <text class='price'>￥129.34</text>
+              <text class='num'>共5件</text>
+            </view>
+
+          </view>
+
+          <view class='btn2'>再来一单</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view hidden="{{currentTab!==2}}">
+    <view class='case-all'>
+      <view class='case'>
+        <view class='caseTimeAndStatus'>
+          <text class='time'>2019.01.10 12:13:22</text>
+          <text class='status'>配送中</text>
+          <view class='orderInfo'>
+            <view class='left'>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/more.png' class='more'></image>
+            </view>
+            <view class='right'>
+              <text class='price'>￥129.34</text>
+              <text class='num'>共5件</text>
+            </view>
+
+          </view>
+          <view class='btn1'>查看物流</view>
+          <view class='btn2'>确认收货</view>
+        </view>
+      </view>
+
+    </view>
+    <view class='case-all'>
+      <view class='case'>
+        <view class='caseTimeAndStatus'>
+          <text class='time'>2019.01.10 12:13:22</text>
+          <text class='status'>待自提</text>
+          <view class='orderInfo'>
+            <view class='left'>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/logo1.png'></image>
+              <image src='../../image/more.png' class='more'></image>
+            </view>
+            <view class='right'>
+              <text class='price'>￥129.34</text>
+              <text class='num'>共5件</text>
+            </view>
+
+          </view>
+          <view class='btn1'>取货码</view>
+          <view class='btn2'>确认收货</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>
+<view wx:else>
+    <image src='../../image/kong-order.png' class='pic'></image>
+    <text class='tx1'>怎么一个订单都没有呐</text>
+    <text class='tx2'>美好的一天从下单开始</text>
+    <text class='tx3'>去逛逛</text>
+</view>

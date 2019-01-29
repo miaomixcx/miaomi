@@ -1,0 +1,26 @@
+<!--pages/coupon/coupon.wxml-->
+<view wx:if="{{isHide}}">
+<view class='header'>
+  <text class='noUse'>都不使用</text>
+  <view class='btn'></view>
+</view>
+<text class='canUse'>可用优惠券</text>
+<view class='tickets'>
+  <view class='price'>
+    <text class='yuan'>￥</text>
+    <text class='num'>5</text>
+    <text class='jine'>满20元可用</text>
+    <text class='allCan'>所有品类均可使用</text>
+  </view> 
+  <text class='date'>使用截止日期：2019-02-15</text>
+  <text class='baned'>不可叠加使用</text>
+</view>
+<view class='sure'>确定</view>
+</view>
+<view wx:else>
+    <image src='../../image/kong-coupon.png' class='pic'></image>
+    <text class='tx1'>怎么肥事？没有优惠券啦？</text>
+    <text class='tx2'>庆幸的是我还没失去你</text>
+    <text class='tx3'>去逛逛</text>
+
+</view>

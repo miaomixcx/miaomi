@@ -1,8 +1,9 @@
 <!--pages/shoppingCar/shoppingCar.wxml-->
+<view wx:if="{{isHide}}">
 <view class='goods'>
   <view class='case'>
     <icon type="success" color='red' class='select'></icon>
-    <image class='goodPic' src=''></image>
+    <image class='goodPic' src='../../image/logo1.png'></image>
     <text class='caseName'>葡萄350g/份</text>
     <text class='vipPrice'>¥9.34</text>
     <image src='../../image/hui.png' class='vip'></image>
@@ -18,7 +19,7 @@
   </view>
   <view class='case'>
     <icon type="success" color='red' class='select'></icon>
-    <image class='goodPic' src=''></image>
+    <image class='goodPic' src='../../image/logo1.png'></image>
     <text class='caseName'>烟台红富士350g/份</text>
     <text class='vipPrice'>¥9.34</text>
     <image src='../../image/hui.png' class='vip'></image>
@@ -33,9 +34,20 @@
     </view>
   </view>
 </view>
-<view class='bottom'>
-  <view class='left'>
+<image src='../../image/dibu.png' class='bottom'></image>
+<!-- <view class='bottom'>
+  
+  
+</view> -->
+<view class='left'>
+    <image src='../../image/shopcar.png' class='shopcar'></image>
     <text class='totalPrice'>¥9.34</text>
-  </view>
-  <view class='goPay'>去结算</view>
+</view>
+<view class='goPay'>去结算</view>
+</view>
+<view wx:else>
+  <image src='../../image/kong-shopcar.png' class='pic'></image>
+    <text class='tx1'>忙碌的日子里，买点吃的犒赏自己吧</text>
+    <text class='tx2'>想吃什么点什么，快去看看</text>
+    <text class='tx3'>去看看</text>
 </view>

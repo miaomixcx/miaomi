@@ -1,50 +1,59 @@
 <!--pages/chooseDizhi/chooseDizhi.wxml-->
+<view wx:if="{{isHide}}">
+<scroll-view scroll-x="true" class='case'>
+  <icon type='success' color='red' class='select'></icon>
+  <text class='userName'>用户1</text>
+  <text class='addressDeatil'>北京市朝阳区望京soho</text>
+  <text class='phone'>12341234123</text>
+  <image src='../../image/record.png' class='record'></image>
+  <view class='delete'>删除</view>
+  <view class='mark'></view>
+</scroll-view>
+<scroll-view scroll-x="true" class='case'>
+  <icon type='success' color='red' class='select'></icon>
+  <text class='userName'>用户1</text>
+  <text class='addressDeatil'>北京市朝阳区望京soho</text>
+  <text class='phone'>12341234123</text>
+  <image src='../../image/record.png' class='record'></image>
+  <view class='delete'>删除</view>
+  <view class='mark'></view>
+</scroll-view>
+<scroll-view scroll-x="true" class='case'>
+  <icon type='success' color='red' class='select'></icon>
+  <text class='userName'>用户1</text>
+  <text class='addressDeatil'>北京市朝阳区望京soho</text>
+  <text class='phone'>12341234123</text>
+  <image src='../../image/record.png' class='record'></image>
+  <view class='delete'>删除</view>
+  <view class='mark'></view>
+</scroll-view>
+<scroll-view scroll-x="true" class='case'>
+  <icon type='success' color='red' class='select'></icon>
+  <text class='userName'>用户1</text>
+  <text class='addressDeatil'>北京市朝阳区望京soho</text>
+  <text class='phone'>12341234123</text>
+  <image src='../../image/record.png' class='record'></image>
+  <view class='delete'>删除</view>
+  <view class='mark'></view>
+</scroll-view>
+<scroll-view scroll-x="true" class='case'>
+  <icon type='success' color='red' class='select'></icon>
+  <text class='userName'>用户1</text>
+  <text class='addressDeatil'>北京市朝阳区望京soho</text>
+  <text class='phone'>12341234123</text>
+  <image src='../../image/record.png' class='record'></image>
+  <view class='delete'>删除</view>
+  <view class='mark'></view>
+</scroll-view>
+</view>
+<view wx:else>
+  <image src='../../image/kong-dizhi.png' class='pic'></image>
+    <text class='tx1'>您还未添加收货地址</text>
+    <text class='tx2'>分分钟添加地址，让购物更便捷</text>
+    <text class='tx3'>去添加</text>
+</view>
 
-<scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
-  <text class='userName'>用户1</text>
-  <text class='addressDeatil'>北京市朝阳区望京soho</text>
-  <text class='phone'>12341234123</text>
-  <image src='../../image/record.png' class='record'></image>
-  <view class='delete'>删除</view>
-  <view class='mark'></view>
-</scroll-view>
-<scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
-  <text class='userName'>用户1</text>
-  <text class='addressDeatil'>北京市朝阳区望京soho</text>
-  <text class='phone'>12341234123</text>
-  <image src='../../image/record.png' class='record'></image>
-  <view class='delete'>删除</view>
-  <view class='mark'></view>
-</scroll-view>
-<scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
-  <text class='userName'>用户1</text>
-  <text class='addressDeatil'>北京市朝阳区望京soho</text>
-  <text class='phone'>12341234123</text>
-  <image src='../../image/record.png' class='record'></image>
-  <view class='delete'>删除</view>
-  <view class='mark'></view>
-</scroll-view>
-<scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
-  <text class='userName'>用户1</text>
-  <text class='addressDeatil'>北京市朝阳区望京soho</text>
-  <text class='phone'>12341234123</text>
-  <image src='../../image/record.png' class='record'></image>
-  <view class='delete'>删除</view>
-  <view class='mark'></view>
-</scroll-view>
-<scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
-  <text class='userName'>用户1</text>
-  <text class='addressDeatil'>北京市朝阳区望京soho</text>
-  <text class='phone'>12341234123</text>
-  <image src='../../image/record.png' class='record'></image>
-  <view class='delete'>删除</view>
-  <view class='mark'></view>
-</scroll-view>
+
 <view class='bottom'>
   <image src='../../image/addAddress.png' class='addAddress'></image>
   <text class='tianjiadizhi'>添加地址</text>

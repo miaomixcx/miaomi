@@ -1,11 +1,11 @@
-// pages/shoppingCar/shoppingCar.js
+// pages/writeAddress/writeAddress.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isHide:false
+
   },
 
   /**
