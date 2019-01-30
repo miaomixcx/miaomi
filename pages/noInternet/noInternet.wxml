@@ -1,0 +1,7 @@
+<!--pages/noInternet/noInternet.wxml-->
+<view>
+<image src='../../image/kong-internet.png' class='pic'></image>
+    <text class='tx1'>网络被外星信号拦截，需要重新找回</text>
+    <text class='tx2'>请您检查手机网络状态</text>
+    <text class='tx3'>重新加载</text>
+</view>

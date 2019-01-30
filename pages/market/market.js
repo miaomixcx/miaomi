@@ -5,7 +5,61 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    navbar: [
+      {
+        eng: "BAKING",
+        cn: "烘焙",
+        children:[
+          {
+            cn:"轻食"
+          },
+          {
+            cn:"抖音同款"
+          },
+          {
+            cn:"欧式面包"
+          },
+          {
+            cn:"热销明星款"
+          }
+        ]
+      },
+      {
+        eng: "MEAT",
+        cn: "肉类"
+      },
+      {
+        eng: "SEAFOODS",
+        cn: "水产"
+      },
+      {
+        eng: "VEGETANBLE",
+        cn: "蔬菜"
+      },
+      {
+        eng: "BAKED",
+        cn: "面包"
+      },
+      {
+        eng: "BAKED",
+        cn: "面包"
+      },
+      {
+        eng: "BAKED",
+        cn: "面包"
+      },
+      {
+        eng: "BAKED",
+        cn: "面包"
+      }
+    ],
+    currentTab: 0,
+    navIndex: 0,
+    tx1: "欧式牛角包",
+    tx2: "酥脆可口 奶香浓郁",
+    tx3: "¥6.79",
+    tx4: "￥12.00",
+    num: 1
   },
 
   /**
@@ -62,5 +116,16 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  navbarTap: function (e) {
+    this.setData({
+      currentTab: e.currentTarget.dataset.idx,
+      navIndex: 0
+    })
+  },
+  navTab: function (e) {
+    this.setData({
+      navIndex: e.currentTarget.dataset.index
+    })
+  },
 })

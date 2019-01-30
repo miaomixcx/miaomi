@@ -1,23 +1,18 @@
-// components/header/header.js
+// pages/confirmOrder/confirmOrder.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    txt:"花间测试"
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'http://192.168.1.115:8080/content/SelectPageAll',
-      success:function(res){
-        console.log(JSON.parse(res.data[0].template))
-      }
-    })
+
   },
 
   /**

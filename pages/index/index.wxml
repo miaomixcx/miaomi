@@ -10,7 +10,9 @@
 
 
 
-<position/>
+<position>
+  
+</position>
 <!-- <listOfPicAndText/> -->
 <view class='main main1'>
   <image src='../../image/banner1.png' class='banner'></image>

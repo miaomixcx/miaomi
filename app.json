@@ -1,29 +1,29 @@
 {
   "pages": [
+    "pages/confirmOrder/confirmOrder",
+    "pages/my/my",
+    "pages/chongzhi/chongzhi",
+    "components/header/header",
+    "pages/index/index",
+    "pages/noInternet/noInternet",
+    "pages/myParse/myParse",
+    "pages/aboutUs/aboutUs",
+    "pages/market/market",
     "pages/coupon/coupon",
     "pages/shoppingCar/shoppingCar",
     "pages/order/order",
-    
-    
-    
-    
     "pages/writeAddress/writeAddress",
     "pages/modifyDizhi/modifyDizhi",
     "pages/chooseDizhi/chooseDizhi",
     "pages/sureOrder/sureOrder",
-    
     "pages/search/search",
     "components/search/search",
     "pages/storeDetails/storeDetails",
     "pages/storeList/storeList",
-    "pages/index/index",
     "components/picAndTextList/picAndTextList",
     "components/listOfPicAndTexts/listOfPicAndText",
     "pages/login/login",
-    "pages/market/market",
-    "pages/my/my",
     "components/banner/banner",
-    "components/header/header",
     "components/top/top"
     
   ],

@@ -1,2 +1,37 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class='header'>
+  <image class='banner' src='../../image/my-banner.png'></image>
+  <image src='../../image/user.png' class='touxiang'></image>
+  <text class='name'>良辰</text>
+  <view>
+  <image src='../../image/symbol.png' class='symbol'></image>
+  <text class='vipPower'>会员权益</text>
+  </view>
+  <view>
+    <text class='set'>个人资料编辑</text>
+    <image src='../../image/right.png' class='set_Right'></image>
+  </view>
+  <image class='card' src='../../image/my-card.png'></image>
+</view>
+<view class='main'>
+  <view class='parse'>
+    <image src='../../image/parse.png' class='parseLogo'></image>
+    <text class='parseName'>钱包</text>
+    <image src='../../image/right.png' class='parseRight'></image>
+  </view>
+  <view class='tickets'>
+    <image src='../../image/tickets.png' class='parseLogo'></image>
+    <text class='parseName'>优惠券</text>
+    <image src='../../image/right.png' class='parseRight'></image>
+  </view>
+  <view class='about'>
+    <image src='../../image/about.png' class='parseLogo'></image>
+    <text class='parseName'>关于我们</text>
+    <image src='../../image/right.png' class='parseRight'></image>
+  </view>
+  <view class='fapiao'>
+    <image src='../../image/fapiao.png' class='parseLogo'></image>
+    <text class='parseName'>发票管理</text>
+    <image src='../../image/right.png' class='parseRight'></image>
+  </view>
+</view>

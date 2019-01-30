@@ -1,1 +1,140 @@
 /* pages/my/my.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background:#fff
+}
+.header{
+  width: 100%;
+  height: 340rpx;
+  background:#fff;
+  position: relative;
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.touxiang{
+  width: 112rpx;
+  height: 112rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 78rpx;
+}
+.name{
+  font-size:44rpx;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(53,53,53,1);
+  line-height:60rpx;
+  position: absolute;
+  left: 174rpx;
+  top: 82rpx;
+}
+.symbol{
+  width: 26rpx;
+  height: 28rpx;
+  position: absolute;
+  left: 174rpx;
+  top: 152rpx;
+}
+.vipPower{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: rgba(53,53,53,1);
+  position: absolute;
+  left: 208rpx;
+  top: 146rpx
+}
+.set{
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(53,53,53,1);
+  line-height:40rpx;
+  position: absolute;
+  right: 56rpx;
+  top: 112rpx
+}
+.set_Right{
+  width: 16rpx;
+  height: 26rpx;
+  position: absolute;
+  right: 22rpx;
+  top: 120rpx;
+}
+.card{
+  width: 100%;
+  height: 216rpx;
+  position: fixed;
+
+  top: 210rpx;
+}
+.main{
+  width: 100%;
+}
+.parse{
+  margin-top: 87rpx;
+  margin-left: 30rpx;
+  width: 690rpx;
+  height: 104rpx;
+  background: #fff
+}
+.parseLogo{
+  width: 44rpx;
+  height: 44rpx;
+  margin-top: 30rpx;
+  float: left
+}
+.parseName{
+  font-size: 34rpx;
+  line-height: 104rpx;
+  margin-left: 24rpx;
+  float: left
+}
+.parseRight{
+  width: 16rpx;
+  height: 26rpx;
+  float: right;
+  margin-right: 0;
+  margin-top: 40rpx;
+}
+.tickets{
+  margin-left: 30rpx;
+  width: 690rpx;
+  height: 104rpx;
+  background: #fff
+}
+.about{
+  margin-left: 30rpx;
+  width: 690rpx;
+  height: 104rpx;
+  background: #fff
+}
+.fapiao{
+  margin-left: 30rpx;
+  width: 690rpx;
+  height: 104rpx;
+  background: #fff
+}
+.parseLogo{
+  width: 44rpx;
+  height: 44rpx;
+  margin-top: 30rpx;
+  float: left
+}
+.parseName{
+  font-size: 34rpx;
+  line-height: 104rpx;
+  margin-left: 24rpx;
+  float: left
+}
+.parseRight{
+  width: 16rpx;
+  height: 26rpx;
+  float: right;
+  margin-right: 0;
+  margin-top: 40rpx;
+}

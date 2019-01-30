@@ -1,0 +1,16 @@
+<!--pages/confirmOrder/confirmOrder.wxml-->
+<view class='header'>
+  <text class='storeName'>北京龙德广场店</text>
+  <text class='info'>门店1.5公里范围内提供闪送服务</text>
+  <image src='../../image/right.png' class='header_right'></image>
+</view>
+<view class='type'>
+  <view class='ziti'>
+    <text>门店自提</text>
+    <image src='../../image/ziti_gou.png' class='gou'></image>
+  </view>
+  <view class='jisu'>
+    <text>急速配</text>
+  </view>
+  <text class='attention'>您下单的商品将保留至22:30分</text>
+</view>

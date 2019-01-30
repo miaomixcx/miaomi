@@ -1,0 +1,12 @@
+<!--pages/myParse/myParse.wxml-->
+<view class='header'>
+  <image src='../../image/parseBanner.png' class='banner'></image>
+  <text class='title'>余额</text>
+  <view class='price'>
+    <text class='num'>109.01</text>
+    <text class='yuan'>元</text>
+  </view>
+</view>
+<image class='ad' src='../../image/banner1.png'></image>
+<image class='vip' src='../../image/banner3.png'></image>
+<view class='nowChuZhi'>立即储值</view>

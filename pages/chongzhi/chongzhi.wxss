@@ -1,0 +1,207 @@
+/* pages/chongzhi/chongzhi.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff
+}
+.case1{
+  width:324rpx;
+  height:150rpx;
+  border-radius:8rpx;
+  border:2rpx solid rgba(255,76,77,1);
+  float: left;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  font-size:36rpx;
+  font-family:PingFangHK-Regular;
+  font-weight:400;
+  color:rgba(255,76,77,1);
+  line-height:150rpx;
+  text-align: center
+}
+.case2{
+  width:324rpx;
+  height:150rpx;
+  border-radius:8rpx;
+  border:2rpx solid rgba(231,231,232,1);
+  float: left;
+  margin-left: 22rpx;
+  margin-top: 40rpx;
+  position: relative
+}
+.case2>.price{
+  font-size: 36rpx;
+  line-height: 36rpx;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  right: 134rpx;
+  top: 40rpx;
+}
+.case2>.oldPrice{
+  height: 36rpx;
+  background: #fff;
+  position: absolute;
+  left: 204rpx;
+  top: 40rpx;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  text-align: center;
+  color: rgba(178,178,178,1)
+}
+.mark{
+  width: 100%;
+  height: 2rpx;
+  background: #B2B2B2;
+  position: absolute;
+  top: 18rpx;
+}
+.case2>.discount{
+  font-size: 20rpx;
+  line-height: 20rpx;
+  color: #FF4C4D;
+  position: absolute;
+  left: 98rpx;
+  top: 94rpx;
+}
+.case3{
+  width:324rpx;
+  height:150rpx;
+  border-radius:8rpx;
+  border:2rpx solid rgba(231,231,232,1);
+  float: left;
+  margin-left: 40rpx;
+  margin-top: 22rpx;
+  position: relative
+}
+.case3>.price{
+  font-size: 36rpx;
+  line-height: 36rpx;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  right: 134rpx;
+  top: 40rpx;
+}
+.case3>.oldPrice{
+  height: 36rpx;
+  background: #fff;
+  position: absolute;
+  left: 204rpx;
+  top: 40rpx;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  text-align: center;
+  color: rgba(178,178,178,1)
+}
+.case3>.discount{
+  font-size: 20rpx;
+  line-height: 20rpx;
+  color: #FF4C4D;
+  position: absolute;
+  left: 98rpx;
+  top: 94rpx;
+}
+.case4{
+  width:324rpx;
+  height:150rpx;
+  border-radius:8rpx;
+  border:2rpx solid rgba(231,231,232,1);
+  float: left;
+  margin-left: 22rpx;
+  margin-top: 22rpx;
+  position: relative
+}
+.case4>.price{
+  font-size: 36rpx;
+  line-height: 36rpx;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  right: 134rpx;
+  top: 40rpx;
+}
+.case4>.oldPrice{
+  height: 36rpx;
+  background: #fff;
+  position: absolute;
+  left: 204rpx;
+  top: 40rpx;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  text-align: center;
+  color: rgba(178,178,178,1)
+}
+.case4>.discount{
+  font-size: 20rpx;
+  line-height: 20rpx;
+  color: #FF4C4D;
+  position: absolute;
+  left: 98rpx;
+  top: 94rpx;
+}
+.payWay{
+  width: 670rpx;
+  height: 206rpx;
+  background: #fff;
+  border-radius:8rpx;
+  border:2rpx solid rgba(250,250,250,1);
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+}
+.weChatPay{
+  width: 610rpx;
+  height: 100rpx;
+
+  margin-left: 30rpx;
+  border-bottom: 2rpx solid #FAFAFA
+}
+.wechat{
+  width: 52rpx;
+  height: 52rpx;
+  margin-top: 28rpx;
+  float: left
+}
+.py1{
+  font-size: 28rpx;
+  color: #353535;
+  margin-left: 30rpx;
+  line-height: 100rpx;
+  float: left
+}
+.gou{
+  width: 52rpx;
+  height: 38rpx;
+  float: right;
+  margin-top: 32rpx;
+}
+.aliPay{
+  width: 610rpx;
+  height: 100rpx;
+
+  margin-left: 30rpx;
+}
+.zhifubao{
+  width: 52rpx;
+  height: 52rpx;
+  margin-top: 28rpx;
+  float: left
+}
+.py2{
+  font-size: 28rpx;
+  color: #353535;
+  margin-left: 30rpx;
+  line-height: 100rpx;
+  float: left
+}
+.gopay{
+  width: 690rpx;
+  height: 106rpx;
+  background: #FF4C4D;
+  position: fixed;
+  bottom: 60rpx;
+  left: 30rpx;
+  box-shadow:0rpx 0rpx 8rpx 0rpx rgba(236,186,86,0.77);
+  border-radius:53rpx;
+  font-size: 36rpx;
+  line-height: 106rpx;
+  text-align: center;color: #fff
+}

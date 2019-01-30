@@ -1,0 +1,40 @@
+<!--pages/chongzhi/chongzhi.wxml-->
+<view>
+  <view class='case1'>20.0 元</view>
+  <view class='case2'>
+    <text class='price'>50.0 元</text>
+    <view class='oldPrice'>
+      <text class='money'>60元</text>
+      <view class='mark'></view>
+    </view>
+    <text class='discount'>享受8.4折优惠</text>
+  </view>
+  <view class='case3'>
+    <text class='price'>78.0 元</text>
+    <view class='oldPrice'>
+      <text class='money'>120元</text>
+      <view class='mark'></view>
+    </view>
+    <text class='discount'>享受6.5折优惠</text>
+  </view>
+  <view class='case4'>
+    <text class='price'>168.0 元</text>
+    <view class='oldPrice'>
+      <text class='money'>240元</text>
+      <view class='mark'></view>
+    </view>
+    <text class='discount'>享受7.0折优惠</text>
+  </view>
+</view>
+<view class='payWay'>
+  <view class='weChatPay'>
+    <image src='../../image/wechat.png' class='wechat'></image>
+    <text class='py1'>微信支付</text>
+    <image src='../../image/gou.png' class='gou'></image>
+  </view>
+  <view class='aliPay'>
+    <image src='../../image/zhifubao.png' class='zhifubao'></image>
+    <text class='py2'>支付宝支付</text>
+  </view>
+</view>
+<view class='gopay'>去支付</view>
