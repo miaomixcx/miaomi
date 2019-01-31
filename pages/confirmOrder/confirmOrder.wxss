@@ -1,9 +1,12 @@
 /* pages/confirmOrder/confirmOrder.wxss */
-page{
+/* page{
   display: flex;
   flex-direction: column;
   height: 100%;
   background: #FAFAFA
+} */
+page{
+  background: #fafafa
 }
 .header{
   width: 100%;
@@ -92,4 +95,245 @@ page{
   margin-left: 30rpx;
   margin-top: 22rpx;
   float: left
+}
+.phone{
+  width: 100%;
+  height: 90rpx;
+  background: #fff
+}
+.phone-center{
+  width: 690rpx;
+  height: 88rpx;
+  background: #fff;
+  margin-left: 30rpx;
+  border-top: 2rpx solid #eee;
+}
+.phonePic{
+  width: 23rpx;
+  height: 28rpx;
+  margin-top: 30rpx
+}
+.number{
+  font-size: 34rpx;
+  line-height: 88rpx;
+  color:  #353535;
+  margin-left: 20rpx;
+}
+.phone_right{
+  width: 16rpx;
+  height: 26rpx;
+  float: right;
+  margin-top: 30rpx;
+}
+.main{
+  width: 690rpx;
+  height: 752rpx;
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+}
+.goodsDetails{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.goodsDetails>text{
+  font-size: 28rpx;
+  color: #353535;
+  line-height: 86rpx;
+  font-weight: 400
+}
+.goodsCase{
+  width: 100%;
+  height: 156rpx;
+}
+.case2{
+  height: 154rpx;
+  border-bottom: 2rpx dashed #eee
+}
+.case{
+  width: 96rpx;
+  height: 96rpx;
+  margin-top: 30rpx;
+  float: left
+}
+.case_name{
+  display: block;
+  width: 140rpx;
+  font-size: 28rpx;
+  color: #353535;
+  float: left;
+  line-height: 156rpx;
+  margin-left: 26rpx
+}
+.case_num{
+  font-size: 28rpx;
+  color: #353535;
+  float: left;
+  line-height: 156rpx;
+  margin-left: 140rpx 
+}
+.case_vip{
+  width:32rpx;
+  height:32rpx;
+  background:rgba(223,174,115,1);
+  border-radius:8rpx;
+  float: left;
+  font-size: 22rpx;color: #fff;
+  text-align: center;
+  line-height: 32rpx;
+  margin-left: 126rpx;
+  margin-top: 62rpx
+}
+.case_price{
+  font-size: 34rpx;
+  color: #353535;
+  float: right;
+  line-height: 156rpx;
+}
+.goodsPrice{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.goodsMoney{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.goodsNum{
+  font-size: 34rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.tickets{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.cheapTickets{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.ticketsNum{
+  font-size: 28rpx;
+  color: #FF4C4D;
+  float: right;
+  line-height: 88rpx;
+  margin-right: 20rpx
+}
+.ticketRight{
+  width: 16rpx;
+  height: 26rpx;
+  float: right;
+  margin-top: 30rpx
+}
+.postPrice{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postMoney{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.post{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.total{
+  width: 100%;
+  height: 88rpx;
+}
+.totalPrice{
+  font-size: 34rpx;
+  color: #353535;
+  line-height: 88rpx;
+  float: right;
+  font-weight:500;
+}
+.other{
+  width: 690rpx;
+  height: 352rpx;
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+}
+.beizhu{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee;
+}
+
+.chuzhiPay{
+  width: 48rpx;
+  height: 48rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+.chuizhi_name{
+  font-size: 28rpx;
+  color: #353535;
+  line-height: 86rpx;
+  float: left;
+  margin-left: 32rpx;
+}
+.beizhu icon{
+  float: right;
+  margin-top: 22rpx;
+}
+.canUse{
+  font-size: 28rpx;
+  line-height: 86rpx;
+  float: right;
+  margin-right: 50rpx;
+}
+.beizhu_type{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx dashed #eee;
+}
+.bottom{
+  width: 100%;
+  height:108rpx;
+  background:#fff;
+  box-shadow:0rpx -2rpx 0rpx 0rpx rgba(0,0,0,0.05);
+  margin-top: 154rpx;
+}
+.bottom .left{
+  width: 470rpx;
+  height: 100%;
+  float: left
+}
+.tx1{
+  font-size: 38rpx;
+  line-height: 108rpx;
+  color: #353535;
+  float: left;
+  margin-left: 38rpx;
+}
+.tx2{
+  font-size: 38rpx;
+  line-height: 108rpx;
+  color: #FF4C4D;
+  float: left;
+  margin-left: 2rpx;
+}
+.right{
+  width: 280rpx;
+  height: 100%;
+  float: right;
+  background: #FF4C4D;
+  font-size: 38rpx;
+  color: #fff;
+  line-height: 108rpx;
+  text-align: center;
 }

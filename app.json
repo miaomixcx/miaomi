@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/addBeizhu/addBeizhu",
     "pages/confirmOrder/confirmOrder",
     "pages/my/my",
     "pages/chongzhi/chongzhi",

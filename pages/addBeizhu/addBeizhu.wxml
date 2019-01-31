@@ -1,0 +1,6 @@
+<!--pages/addBeizhu/addBeizhu.wxml-->
+<view class='textarea-count'>
+   <textarea placeholder='请输入口味、偏好等要求' bindinput="getWords" maxlength='{{maxTextLen}}' class='ipt'></textarea>
+   <view class='text-count-display f f-end'>{{textLen}}/{{maxTextLen}}</view>
+</view>
+<view class='sure'>确定</view>

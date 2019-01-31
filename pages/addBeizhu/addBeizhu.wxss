@@ -1,0 +1,36 @@
+/* pages/addBeizhu/addBeizhu.wxss */
+page{
+  background: #FAFAFA
+}
+.textarea-count{
+  width: 670rpx;
+  height: 214rpx;
+  background: #fff;
+  padding-left: 20rpx;
+  padding-top: 26rpx;
+  margin-left: 30rpx;
+  margin-top: 24rpx;
+  position: relative
+}
+.ipt{
+  font-size: 28rpx;
+}
+.f{
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+  font-size: 28rpx;
+  color: #B2B2B2
+}
+.sure{
+  width: 690rpx;
+  height: 106rpx;
+  background: #FF4C4D;
+  border-radius: 53rpx;
+  margin-top: 290rpx;
+  margin-left: 30rpx;
+  font-size: 36rpx;
+  line-height: 106rpx;
+  text-align: center;
+  color: #fff
+}
