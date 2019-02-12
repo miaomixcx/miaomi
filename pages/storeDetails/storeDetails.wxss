@@ -10,6 +10,10 @@
   background: orange;
   margin-left: 32rpx
 }
+.bannerPic image{
+  width: 100%;
+  height: 100%
+}
 .main{
   width: 100%;
   height: 612rpx;

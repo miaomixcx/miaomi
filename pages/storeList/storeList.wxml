@@ -8,7 +8,7 @@
 </view>
 <view class='main'>
   <text class='mainTitle'>附近门店</text>
-  <view class='storeOne'>
+  <view class='storeOne' bindtap='handleStoreDetails'>
     <view class='caseA'>
       <text class='storeOneName'>望京店</text>
       <text class='storeOneKilometers'>0.8公里</text>

@@ -1,4 +1,4 @@
-// pages/storeList/storeList.js
+// pages/orderDetail/orderDetail.js
 Page({
 
   /**
@@ -14,11 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  handleStoreDetails(){
-    wx.navigateTo({
-      url: '../storeDetails/storeDetails',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

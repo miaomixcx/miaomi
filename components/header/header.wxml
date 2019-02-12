@@ -1,11 +1,11 @@
 <!--components/header/header.wxml-->
 <view class='header'>
-  <view class='position'>
+  <view class='position' bindtap='handlePosition'>
     <image src='../../image/dizhi.png' class='dizhi'></image>
     <text class='txt'>{{txt}}</text>
     <image src='../../image/xiala.png' class='xiala'></image>
   </view>
-  <view class='search'>
+  <view class='search' bindtap='handleSearch'>
     <image src='../../image/sousuo.png' class='chazhao'></image>
     <input placeholder='搜索商品' class='ipt'></input>
 

@@ -1,0 +1,335 @@
+/* pages/orderDetail/orderDetail.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #FAFAFA;
+}
+
+.container{
+  padding:0 30rpx;
+}
+
+.header{
+  width: 100%;
+  height: 478rpx;
+  background: #fff;
+  
+}
+
+.header .gou{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 286rpx;
+  margin-top: 64rpx;
+}
+
+.header .status{
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  text-align: center;
+  font-size: 36rpx;
+  line-height: 50rpx;
+  margin-top: 8rpx;
+  color: #FF4C4D;
+  font-weight: 600
+}
+.header .tx1{
+  display: block;
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-top: 4rpx;
+  color: #999999;
+  font-weight: 400
+}
+.header .headerStore{
+  padding: 0 20rpx;
+  width: 650rpx;
+  height: 120rpx;
+  background: #fff;
+  margin-top: 72rpx;
+  position: relative;
+  border-bottom: 2rpx dashed #eee
+}
+.headerStore .storeName{
+  font-size: 36rpx;
+  line-height: 50rpx;
+}
+.header .service{
+  display: block;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  margin-top: 6rpx;
+}
+.header .mark{
+  width: 2rpx;
+  height: 74rpx;
+  background: #EEEEEE;
+  float: right;
+  margin-right: 110rpx;
+  margin-top: 8rpx;
+}
+.header .phone{
+  width: 34rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 44rpx;
+  top: 26rpx;
+}
+.main{
+  width: 650rpx;
+  height: 1280rpx;
+  background: #fff;
+  padding: 0 20rpx;
+}
+.goodsDetails{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.goodsDetails>text{
+  font-size: 28rpx;
+  color: #353535;
+  line-height: 86rpx;
+  font-weight: 400
+}
+.goodsCase{
+  width: 100%;
+  height: 156rpx;
+}
+.case2{
+  height: 154rpx;
+  border-bottom: 2rpx dashed #eee
+}
+.case{
+  width: 96rpx;
+  height: 96rpx;
+  margin-top: 30rpx;
+  float: left
+}
+.case_name{
+  display: block;
+  width: 140rpx;
+  font-size: 28rpx;
+  color: #353535;
+  float: left;
+  line-height: 156rpx;
+  margin-left: 26rpx
+}
+.case_num{
+  font-size: 28rpx;
+  color: #353535;
+  float: left;
+  line-height: 156rpx;
+  margin-left: 120rpx 
+}
+.case_vip{
+  width:32rpx;
+  height:32rpx;
+  background:rgba(223,174,115,1);
+  border-radius:8rpx;
+  float: left;
+  font-size: 22rpx;color: #fff;
+  text-align: center;
+  line-height: 32rpx;
+  margin-left: 100rpx;
+  margin-top: 62rpx
+}
+.case_price{
+  font-size: 34rpx;
+  color: #353535;
+  float: right;
+  line-height: 156rpx;
+}
+.goodsPrice{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.goodsMoney{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.goodsNum{
+  font-size: 34rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.tickets{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.cheapTickets{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.ticketsNum{
+  font-size: 28rpx;
+  color: #FF4C4D;
+  float: right;
+  line-height: 88rpx;
+  margin-right: 20rpx
+}
+.ticketRight{
+  width: 16rpx;
+  height: 26rpx;
+  float: right;
+  margin-top: 30rpx
+}
+.postPrice{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postMoney{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.post{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.total{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx dashed #eee
+}
+.totalPrice{
+  font-size: 34rpx;
+  color: #353535;
+  line-height: 88rpx;
+  float: right;
+  font-weight:500;
+}
+.postInfo{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postMan{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.postName{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.postConnect{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postPhone{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.postPhonenumber{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.postCase{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postTake{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.postByself{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.postAddress{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postTakeAddress{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.postAddressDetails{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.postTime{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.postOrderTime{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.postTimeDetails{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.vipPower{
+  width: 100%;
+  height: 86rpx;
+  border-bottom: 2rpx solid #eee
+}
+.cheap{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.vipCheap{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}
+.beizhu{
+  width: 100%;
+  height: 86rpx;
+}
+.beizhuInfo{
+  font-size: 28rpx;
+  line-height: 88rpx;
+  color: #353535;
+  float: left
+}
+.beizhuDetails{
+  font-size: 28rpx;
+  color: #353535;
+  float: right;
+  line-height: 88rpx;
+}

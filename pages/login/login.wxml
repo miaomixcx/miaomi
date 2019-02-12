@@ -3,6 +3,7 @@
   <view wx:if="{{canIUse}}">
     <view class='header'>
       <image src='/image/logo.png'></image>
+      <text>伴屋市集</text>
     </view>
 
     <view class='content'>

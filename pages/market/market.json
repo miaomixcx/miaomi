@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "navbar": "../../components/top/top"
-  }
+  },
+  "navigationBarTitleText": "伴屋市集"
 }

@@ -1,6 +1,8 @@
 <!--pages/storeDetails/storeDetails.wxml-->
 <view class='banner'>
-  <view class='bannerPic'></view>
+  <view class='bannerPic'>
+    <image src='../../image/logo1.png'></image>
+  </view>
 </view>
 <view class='main'>
   <view class='mainTitle'>
@@ -9,7 +11,7 @@
   <view class='positionAndPhone'>
     <image src='../../image/dizhi2.png' class='position'></image>
     <text class='content'>北京市朝阳区三里屯太古里</text>
-    <image src='../../image/phone.png' class='phone'></image>
+    <image src='../../image/phone.png' class='phone' bindtap='handleCall'></image>
   </view>
   <view class='timeAndYingye'>
     <image src='../../image/time.png' class='time'></image>

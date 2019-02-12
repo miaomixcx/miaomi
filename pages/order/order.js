@@ -7,7 +7,7 @@ Page({
   data: {
     navbar: ['全部订单', '已完成', '未完成'],
     currentTab:0,
-    isHide:false
+    isHide:true
   },
   navbarTap: function (e) {
     this.setData({
