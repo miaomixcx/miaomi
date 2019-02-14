@@ -1,0 +1,36 @@
+<!--pages/goodsDetails/goodsDetails.wxml-->
+<view class='banner'>
+  <image src='../../image/logo1.png'></image>
+</view>
+<view class='goodsInstruction'>
+  <view class='goodsInstruction_center'>
+    <text class='goodsTitle'>来自智利的甜美问候</text>
+    <text class='kilos'>送礼·jj级车厘子4斤装</text>
+    <text class='price'>￥6.79</text>
+    <text class='vipPrice'>￥5.99</text>
+    <view class='vip'>会员价</view>
+    <text class='saleNum'>月销111份</text>
+  </view>
+</view>
+<view class='goodsExplain'>
+  <view class='goodsExplain_center'>
+    <text class='title'>商品说明</text>
+    <text class='content'>严格的果品分级制度是打造爆款的利器。种植樱桃已经成了智利重要的支柱产业之一，从国家到企业到种植户都相当重视樱桃的精细化种植管理和品质。</text>
+  </view>
+</view>
+<view class='goodsDetails'>
+  <view class='goodsDetails_center'>
+    <text class='goodsdetail'>商品详情</text>
+    <text class='format'>规格：1盒</text>
+    <text class='kg'>重量：4斤*1盒</text>
+    <text class='package'>包装：盒装</text>
+    <text class='time'>保质期：到货后即可使用</text>
+    <text class='case'>贮存方法：冷藏</text>
+  </view>
+</view>
+<image src='../../image/dibu.png' class='bottom'></image>
+<view class='left'>
+    <image src='../../image/shopcar.png' class='shopcar'></image>
+    <text class='totalPrice'>¥9.34</text>
+</view>
+<view class='goPay'>去结算</view>

@@ -1,7 +1,7 @@
 <!--pages/chooseDizhi/chooseDizhi.wxml-->
 <view wx:if="{{isHide}}">
 <scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
+
   <text class='userName'>用户1</text>
   <text class='addressDeatil'>北京市朝阳区望京soho</text>
   <text class='phone'>12341234123</text>
@@ -10,7 +10,7 @@
   <view class='mark'></view>
 </scroll-view>
 <scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
+
   <text class='userName'>用户1</text>
   <text class='addressDeatil'>北京市朝阳区望京soho</text>
   <text class='phone'>12341234123</text>
@@ -19,7 +19,7 @@
   <view class='mark'></view>
 </scroll-view>
 <scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
+
   <text class='userName'>用户1</text>
   <text class='addressDeatil'>北京市朝阳区望京soho</text>
   <text class='phone'>12341234123</text>
@@ -28,7 +28,7 @@
   <view class='mark'></view>
 </scroll-view>
 <scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
+
   <text class='userName'>用户1</text>
   <text class='addressDeatil'>北京市朝阳区望京soho</text>
   <text class='phone'>12341234123</text>
@@ -37,7 +37,7 @@
   <view class='mark'></view>
 </scroll-view>
 <scroll-view scroll-x="true" class='case'>
-  <icon type='success' color='red' class='select'></icon>
+
   <text class='userName'>用户1</text>
   <text class='addressDeatil'>北京市朝阳区望京soho</text>
   <text class='phone'>12341234123</text>

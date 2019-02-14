@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  handleCall(){
+    wx.showActionSheet({
+      itemList: ["010-84150908", "010-84150958"],
+      itemColor:"#4A90E2"
+    })
   }
 })

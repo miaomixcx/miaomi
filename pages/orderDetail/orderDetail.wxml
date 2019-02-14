@@ -1,9 +1,11 @@
 <!--pages/orderDetail/orderDetail.wxml-->
 <view class='container'>
   <view class='header'>
-    <image src='../../image/order-gou.png' class='gou'></image>
-    <text class='status'>已完成</text>
-    <text class='tx1'>感谢你的耐心等待呦！欢迎下次大驾光临哦</text>
+    <view>
+      <image src='../../image/order-gou.png' class='gou'></image>
+      <text class='status'>已完成</text>
+      <text class='tx1'>感谢你的耐心等待呦！欢迎下次大驾光临哦</text>
+    </view>
     <view class='headerStore'>
       <text class='storeName'>北京龙德广场店</text>
       <view class='mark'></view>

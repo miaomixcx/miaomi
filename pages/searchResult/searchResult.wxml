@@ -1,0 +1,69 @@
+<!--pages/searchResult/searchResult.wxml-->
+<search/>
+<view class='main'>
+  <view class='mian_center'>
+    <view class='case'>
+      <image src='../../image/logo1.png' class='logo'></image>
+      <text class='tx1'>欧式牛角包</text>
+      <text class='tx2'>飘香可口 奶香浓郁</text>
+      <text class='tx3'>月售：35</text>
+      <text class='tx4'>￥19.90</text>
+      <text class='tx5'>￥9.90</text>
+      <view class='vip'>会员价</view>
+      <image src='../../image/jia2.png' class='add'></image>
+    </view>
+    <view class='case'>
+      <image src='../../image/logo1.png' class='logo'></image>
+      <text class='tx1'>欧式牛角包</text>
+      <text class='tx2'>飘香可口 奶香浓郁</text>
+      <text class='tx3'>月售：35</text>
+      <text class='tx4'>￥19.90</text>
+      <text class='tx5'>￥9.90</text>
+      <view class='vip'>会员价</view>
+      <image src='../../image/jia2.png' class='add'></image>
+    </view>
+    <view class='case'>
+      <image src='../../image/logo1.png' class='logo'></image>
+      <text class='tx1'>欧式牛角包</text>
+      <text class='tx2'>飘香可口 奶香浓郁</text>
+      <text class='tx3'>月售：35</text>
+      <text class='tx4'>￥19.90</text>
+      <text class='tx5'>￥9.90</text>
+      <view class='vip'>会员价</view>
+      <image src='../../image/jia2.png' class='add'></image>
+    </view>
+    <view class='case'>
+      <image src='../../image/logo1.png' class='logo'></image>
+      <text class='tx1'>欧式牛角包</text>
+      <text class='tx2'>飘香可口 奶香浓郁</text>
+      <text class='tx3'>月售：35</text>
+      <text class='tx4'>￥19.90</text>
+      <text class='tx5'>￥9.90</text>
+      <view class='vip'>会员价</view>
+      <image src='../../image/jia2.png' class='add'></image>
+    </view>
+    <view class='case'>
+      <image src='../../image/logo1.png' class='logo'></image>
+      <text class='tx1'>欧式牛角包</text>
+      <text class='tx2'>飘香可口 奶香浓郁</text>
+      <text class='tx3'>月售：35</text>
+      <text class='tx4'>￥19.90</text>
+      <text class='tx5'>￥9.90</text>
+      <view class='vip'>会员价</view>
+      <image src='../../image/jia2.png' class='add'></image>
+    </view>
+    <view class='case'>
+      <image src='../../image/logo1.png' class='logo'></image>
+      <text class='tx1'>欧式牛角包</text>
+      <text class='tx2'>飘香可口 奶香浓郁</text>
+      <text class='tx3'>月售：35</text>
+      <text class='tx4'>￥19.90</text>
+      <text class='tx5'>￥9.90</text>
+      <view class='vip'>会员价</view>
+      <image src='../../image/jia2.png' class='add'></image>
+    </view>
+  </view>
+</view>
+<view class='car'>
+  <image src='../../image/gouwuche.png'></image>
+</view>

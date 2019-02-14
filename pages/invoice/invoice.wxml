@@ -1,0 +1,22 @@
+<!--pages/invoice/invoice.wxml-->
+<view class='case'>
+  <view class='case_center'>
+    <image src='../../image/kaifapiao.png' class='fapiao'></image>
+    <text class='tx1'>开具发票</text>
+    <image src='../../image/right.png' class='right'></image>
+  </view>
+</view>
+<view class='case'>
+  <view class='case_center'>
+    <image src='../../image/kaifapiaojilu.png' class='fapiao'></image>
+    <text class='tx1'>发票记录</text>
+    <image src='../../image/right.png' class='right'></image>
+  </view>
+</view>
+<view class='case'>
+  <view class='case_center case3'>
+    <image src='../../image/fapiaotaitou.png' class='fapiao'></image>
+    <text class='tx1'>发票抬头</text>
+    <image src='../../image/right.png' class='right'></image>
+  </view>
+</view>

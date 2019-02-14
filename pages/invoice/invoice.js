@@ -1,22 +1,18 @@
-// pages/my/my.js
+// pages/invoice/invoice.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tx:""
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this
-    var userInfo =wx.getStorageSync('userInfo')
-    that.setData({
-      tx:userInfo.avatarUrl
-    })
+
   },
 
   /**

@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    isHide:false
+    isHide:true
   },
 
   /**
@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  goPay(){
+    wx.navigateTo({
+      url: '../confirmOrder/confirmOrder',
+    })
   }
 })

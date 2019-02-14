@@ -100,5 +100,5 @@
 </scroll-view>
 
 <view class='shoppingCar'>
-  <image src='../../image/gouwuche.png' class='gouwuche'></image>
+  <image src='../../image/gouwuche.png' class='gouwuche' bindtap='handleGo'></image>
 </view>

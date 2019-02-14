@@ -6,17 +6,16 @@ page{
   background: #FAFAFA
 }
 .goods{
-  width: 100%;
+  width: 690rpx;
   background: #fff;
+  padding: 0 30rpx;
 }
 .case{
-  width: 690rpx;
-  height: 74rpx;
+  width: 100%;
+  height: 156rpx;
   background: #fff;
   position: relative;
-  margin-left: 30rpx;
-  padding-top: 80rpx;
-  border-bottom: 2rpx solid #EEEEEE
+  border-bottom: 2rpx solid #EEEEEE;
 }
 .select{
   width: 18rpx;
@@ -112,6 +111,17 @@ page{
 .add{
   width: 40rpx;
   height: 40rpx;
+}
+.delete{
+  width:118rpx;
+  height:156rpx;
+  position: absolute;
+  right: -148rpx;
+  background:rgba(255,76,77,1);
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 156rpx;
 }
 .bottom{
   position: fixed;

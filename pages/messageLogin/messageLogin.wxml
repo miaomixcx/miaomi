@@ -1,0 +1,17 @@
+<!--pages/messageLogin/messageLogin.wxml-->
+<view class='top'>
+  <image src='../../image/logo.png' class='logo'></image>
+  <text class='title'>伴屋市集</text>
+</view>
+<view class='phoneNum'>
+  <view class='phoneNum_center'>
+    <input placeholder='请输入手机号' class='ipt'></input>
+    <view class='yanzhengma'>获取验证码</view>
+  </view>
+</view>
+<view class='yanZhengMa'>
+  <view class='yanZhengMa_center'>
+    <input placeholder='请输入验证码' class='yzm_ipt'></input>
+  </view>
+</view>
+<view class='over'>完成</view>

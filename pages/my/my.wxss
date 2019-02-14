@@ -22,6 +22,7 @@ page{
   position: absolute;
   left: 30rpx;
   top: 78rpx;
+  border-radius: 56rpx;
 }
 .name{
   font-size:44rpx;

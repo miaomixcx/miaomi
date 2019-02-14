@@ -6,16 +6,13 @@ page{
   background: #FAFAFA
 }
 .case{
-  width: 868rpx;
+  width: 690rpx;
   height: 144rpx;
   background: #fff;
-  
+  margin-left: 30rpx;
+  position: relative;
 }
-.select{
-  position: absolute;
-  left: 30rpx;
-  top: 54rpx;
-}
+
 .userName{
   display: block;
   width:142rpx;
@@ -26,7 +23,7 @@ page{
   color:rgba(53,53,53,1);
   line-height:40rpx;
   position: absolute;
-  left: 94rpx;
+  left: 20rpx;
   top: 32rpx;
 }
 .addressDeatil{
@@ -39,7 +36,7 @@ page{
   color:rgba(178,178,178,1);
   line-height:40rpx;
   position: absolute;
-  left: 94rpx;
+  left: 20rpx;
   top: 78rpx;
 }
 .phone{
@@ -52,20 +49,20 @@ page{
   color:rgba(53,53,53,1);
   line-height:40rpx;
   position: absolute;
-  left: 460rpx;
+  left: 410rpx;
   top: 32rpx;
 }
 .record{
   width: 36rpx;
   height: 36rpx;
   position: absolute;
-  left: 684rpx;
+  left: 634rpx;
   top: 54rpx;
 }
 .delete{  
   position: absolute;
-  right: -118rpx;
-  width: 118rpx;
+  right: -130rpx;
+  width: 100rpx;
   height: 144rpx;
   background: #FF4C4D;
   font-size:28rpx;
@@ -76,11 +73,11 @@ page{
   text-align: center;
 }
 .mark{
-  width: 690rpx;
-  height: 2rpx;
+  width: 650rpx;
+  height: 1rpx;
   background: #F1F1F1;
   position: absolute;
-  left: 30rpx;
+  left: 20rpx;
   top: 142rpx;
 }
 .case:last-child .mark{

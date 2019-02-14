@@ -1,81 +1,83 @@
 <!--pages/confirmOrder/confirmOrder.wxml-->
-<view class='header'>
-  <text class='storeName'>北京龙德广场店</text>
-  <text class='info'>门店1.5公里范围内提供闪送服务</text>
-  <image src='../../image/right.png' class='header_right'></image>
-</view>
-<view class='type'>
-  <view class='ziti'>
-    <text>门店自提</text>
-    <image src='../../image/ziti_gou.png' class='gou'></image>
+<view>
+  <view class='header'>
+    <text class='storeName'>北京龙德广场店</text>
+    <text class='info'>门店1.5公里范围内提供闪送服务</text>
+    <image src='../../image/right.png' class='header_right'></image>
   </view>
-  <view class='jisu'>
-    <text>急速配</text>
+  <view class='type'>
+    <view class='ziti'>
+      <text>门店自提</text>
+      <image src='../../image/ziti_gou.png' class='gou'></image>
+    </view>
+    <view class='jisu'>
+      <text>急速配</text>
+    </view>
+    <text class='attention'>您下单的商品将保留至22:30分</text>
   </view>
-  <text class='attention'>您下单的商品将保留至22:30分</text>
-</view>
-<view class='phone'>
-  <view class='phone-center'>
-  <image class='phonePic' src='../../image/shouji.png'></image>
-  <text class='number'>12312341234</text>
-  <image class='phone_right' src='../../image/right.png'></image>
+  <view class='phone'>
+    <view class='phone-center'>
+      <image class='phonePic' src='../../image/shouji.png'></image>
+      <text class='number'>12312341234</text>
+      <image class='phone_right' src='../../image/right.png'></image>
+    </view>
   </view>
 </view>
 <view class='main'>
-    <view class='goodsDetails'>
-      <text>商品明细</text>
-    </view>
-    <view class='goodsCase'>
-      <image class='case' src='../../image/logo1.png'></image>
-      <text class='case_name'>烟台红富士</text>
-      <text class='case_num'>X1</text>
-      <view class='case_vip'>会</view>
-      <text class='case_price'>¥9.34</text>
-    </view>
-    <view class='goodsCase case2'>
-      <image class='case' src='../../image/logo1.png'></image>
-      <text class='case_name'>汇源果汁</text>
-      <text class='case_num'>X1</text>
-      <view class='case_vip'>会</view>
-      <text class='case_price'>¥9.34</text>
-    </view>
-    <view class='goodsPrice'>
-      <text class='goodsMoney'>商品金额</text>
-      <text class='goodsNum'>¥18.68</text>
-    </view>
-    <view class='tickets'>
-      <text class='cheapTickets'>优惠券</text>
-      <image class='ticketRight' src='../../image/right.png'></image>
-      <text class='ticketsNum'>两张可用</text>
-    </view>
-    <view class='postPrice'>
-      <text class='postMoney'>配送费</text>
-      <text class='post'>包邮</text>
-    </view>
-    <view class='total'>
-      <text class='totalPrice'>合计：¥18.68</text>
-    </view>
+  <view class='goodsDetails'>
+    <text>商品明细</text>
+  </view>
+  <view class='goodsCase'>
+    <image class='case' src='../../image/logo1.png'></image>
+    <text class='case_name'>烟台红富士</text>
+    <text class='case_num'>X1</text>
+    <view class='case_vip'>会</view>
+    <text class='case_price'>¥9.34</text>
+  </view>
+  <view class='goodsCase case2'>
+    <image class='case' src='../../image/logo1.png'></image>
+    <text class='case_name'>汇源果汁</text>
+    <text class='case_num'>X1</text>
+    <view class='case_vip'>会</view>
+    <text class='case_price'>¥9.34</text>
+  </view>
+  <view class='goodsPrice'>
+    <text class='goodsMoney'>商品金额</text>
+    <text class='goodsNum'>¥18.68</text>
+  </view>
+  <view class='tickets'>
+    <text class='cheapTickets'>优惠券</text>
+    <image class='ticketRight' src='../../image/right.png'></image>
+    <text class='ticketsNum'>两张可用</text>
+  </view>
+  <view class='postPrice'>
+    <text class='postMoney'>配送费</text>
+    <text class='post'>包邮</text>
+  </view>
+  <view class='total'>
+    <text class='totalPrice'>合计：¥18.68</text>
+  </view>
 </view>
 <view class='other'>
-  <view class='beizhu'>
-      <text class='cheapTickets'>备注特殊要求</text>
-      <image class='ticketRight' src='../../image/right.png'></image>
+  <view class='beizhu' bindtap='beizhu'>
+    <text class='cheapTickets'>备注特殊要求</text>
+    <image class='ticketRight' src='../../image/right.png'></image>
   </view>
   <view class='beizhu'>
-      <text class='cheapTickets'>支付方式</text>
+    <text class='cheapTickets'>支付方式</text>
   </view>
   <view class='beizhu beizhu_type'>
-      <image src='../../image/logo.png' class='chuzhiPay'></image>
-      <text class='chuizhi_name'>储值支付</text>
-      <icon type='success' color='red'></icon>
-      <text class='canUse'>可用余额：¥300</text>
-  </view> 
+    <image src='../../image/logo.png' class='chuzhiPay'></image>
+    <text class='chuizhi_name'>储值支付</text>
+    <icon type='success' color='red'></icon>
+    <text class='canUse'>可用余额：¥300</text>
+  </view>
   <view class='beizhu'>
-      <image src='../../image/wechat.png' class='chuzhiPay'></image>
-      <text class='chuizhi_name'>微信支付</text>
-      <icon type='success' color='red'></icon>
-      <text class='canUse'>立即支付</text>
-  </view> 
+    <image src='../../image/wechat.png' class='chuzhiPay'></image>
+    <text class='chuizhi_name'>微信支付</text>
+    <icon type='success' color='red'></icon>
+    <text class='canUse'>立即支付</text>
+  </view>
 </view>
 <view class='bottom'>
   <view class='left'>

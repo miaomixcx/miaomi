@@ -37,16 +37,8 @@ Page({
         cn: "蔬菜"
       },
       {
-        eng: "BAKED",
-        cn: "面包"
-      },
-      {
-        eng: "BAKED",
-        cn: "面包"
-      },
-      {
-        eng: "BAKED",
-        cn: "面包"
+        eng: "DRY FRUITS",
+        cn: "干果"
       },
       {
         eng: "BAKED",
@@ -128,4 +120,9 @@ Page({
       navIndex: e.currentTarget.dataset.index
     })
   },
+  handleGo(){
+    wx.navigateTo({
+      url: '../shoppingCar/shoppingCar',
+    })
+  }
 })

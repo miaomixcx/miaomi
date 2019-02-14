@@ -1,54 +1,32 @@
 {
   "pages": [
-    "pages/market/market",
+    "pages/searchResult/searchResult",
+    "pages/login/login",
+    "pages/messageLogin/messageLogin",
+    "pages/confirmOrder/confirmOrder",
+    "pages/orderDetail/orderDetail",
     "pages/index/index",
-    "pages/sureOrder/sureOrder",
-    "pages/modifyDizhi/modifyDizhi",
+    "pages/chooseDizhi/chooseDizhi",
+    "pages/invoice/invoice",
+    "pages/shoppingCar/shoppingCar",
+    "pages/storeDetails/storeDetails",
+    "pages/aboutUs/aboutUs",
     "pages/writeAddress/writeAddress",
+    "pages/goodsDetails/goodsDetails",
+    "pages/order/order",
+    "pages/modifyDizhi/modifyDizhi",
+    "pages/market/market",
+    "pages/sureOrder/sureOrder",
     "pages/chongzhi/chongzhi",
     "pages/addBeizhu/addBeizhu",
-    "pages/orderDetail/orderDetail",
-    "pages/confirmOrder/confirmOrder",
-    "pages/shoppingCar/shoppingCar",
-    
-    
     "pages/coupon/coupon",
     "pages/myParse/myParse",
     "pages/noInternet/noInternet",
-    
-    
-    
-   
-    "pages/storeDetails/storeDetails",
     "pages/storeList/storeList",
-    "pages/chooseDizhi/chooseDizhi",
-    
-    
-    "pages/order/order",
     "pages/my/my",
-    
-    
-    "pages/login/login",
-    
-    
-    
-    
     "components/header/header",
-    
-    
-    "pages/aboutUs/aboutUs",
-    
-    
-    
-    
-    
-    
-    
-    
     "pages/search/search",
     "components/search/search",
-    
-    
     "components/picAndTextList/picAndTextList",
     "components/listOfPicAndTexts/listOfPicAndText",
     "components/banner/banner",
@@ -62,6 +40,7 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "selectedColor": "#FF4C4D",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -88,5 +67,10 @@
         "selectedIconPath": "./image/my_selected.png"
       }
     ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置将用于小程序位置接口测试"
+    }
   }
 }
