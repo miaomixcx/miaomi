@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/begin/begin",
+    "pages/index/index",
     
     "pages/writeAddress/writeAddress",
     "pages/my/my",
@@ -33,7 +33,6 @@
     "components/listOfPicAndTexts/listOfPicAndText",
     "components/banner/banner",
     "components/top/top"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
