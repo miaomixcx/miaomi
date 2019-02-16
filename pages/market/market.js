@@ -65,14 +65,23 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    wx.getStorage({
+      key: 'location',
+      success: function (res) {
+        const data = JSON.parse(res.data);
+        console.log(data);
+      },
+      fail:function(err){
+        console.log(err);
+      }
+    })
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    
   },
 
   /**
