@@ -1,0 +1,24 @@
+<!--pages/lingquan/lingquan.wxml-->
+<view class='main'>
+  <view class='case  canuse'>
+    <image src='../../image/tickets-canuse.png'></image>
+    <text class='tx1'>¥<text class='tx2'>10</text></text>
+    <text class='tx3'>满50可用</text>
+    <text class='tx4'>全品类通用券</text>
+    <view class='mark1'></view>
+    <view class='mark2'></view>
+    <view class='mark3'></view>
+    <text class='tx5'>10月12日-10月22日可用</text>
+  </view>
+  <view class='case fish'>
+    <image src='../../image/tickets-fish.png'></image>
+    <text class='tx1'>¥<text class='tx2'>10</text></text>
+    <text class='tx3'>满50可用</text>
+    <text class='tx4'>全品类通用券</text>
+    <view class='mark1'></view>
+    <view class='mark2'></view>
+    <view class='mark3'></view>
+    <text class='tx5'>10月12日-10月22日可用</text>
+  </view>
+</view>
+<view class='look'>查看我的优惠券</view>

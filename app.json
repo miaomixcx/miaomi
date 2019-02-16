@@ -1,30 +1,26 @@
 {
   "pages": [
+    "pages/personalInfo/personalInfo",
+    "pages/writeAddress/writeAddress",
+    "pages/lingquan/lingquan",
     "pages/login/login",
     "pages/coupon/coupon",
     "pages/order/order",
     "pages/begin/begin",
     "pages/market/market",
-    
     "pages/index/index",
-    
-    "pages/writeAddress/writeAddress",
     "pages/my/my",
     "pages/confirmOrder/confirmOrder",
-    
     "pages/shoppingCar/shoppingCar",
-    
     "pages/chooseDizhi/chooseDizhi",
     "pages/modifyDizhi/modifyDizhi",
     "pages/searchResult/searchResult",
-    
     "pages/messageLogin/messageLogin",
     "pages/orderDetail/orderDetail",
     "pages/invoice/invoice",
     "pages/storeDetails/storeDetails",
     "pages/aboutUs/aboutUs",
     "pages/goodsDetails/goodsDetails",
-    
     "pages/sureOrder/sureOrder",
     "pages/chongzhi/chongzhi",
     "pages/addBeizhu/addBeizhu",
@@ -38,6 +34,7 @@
     "components/listOfPicAndTexts/listOfPicAndText",
     "components/banner/banner",
     "components/top/top"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
