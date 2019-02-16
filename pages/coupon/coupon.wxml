@@ -2,7 +2,12 @@
 <view wx:if="{{isHide}}">
 <view class='header'>
   <text class='noUse'>都不使用</text>
-  <view class='btn'></view>
+  <view class='qiehuan'>
+    <view class="sliderContent">
+      <view disabled="{{disabled}}" />
+      <view class="slider" bindtouchstart="moveSendBtnStart" bindtouchend="moveSendBtnEnd" bindtouchmove="moveSendBtn" style="left:{{moveSendBtnLeft}}rpx;background-color:{{SendBtnColor}}"></view>
+    </view>
+  </view>
 </view>
 <text class='canUse'>可用优惠券</text>
 <view class='tickets'>

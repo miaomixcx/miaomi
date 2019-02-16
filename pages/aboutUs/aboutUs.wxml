@@ -3,7 +3,7 @@
   <image src='../../image/aboutUsLogo.png' class='logo'></image>
   <text class='cont'> 青零项目是基于本地化服务的线下（到店）和线 上零售平台。平台包括：服务于用户到店购物OR线 上购物的零售系统，服务于平台业务及运营人员的业 务管理系统。</text>
 </view>
-<view class='connect'>
+<view class='connect' bindtap='handleCall'>
   <text class='connectUs'>联系我们</text>
-  <image src='../../image/phone1.png' class='phone' bindtap='handleCall'></image>
+  <image src='../../image/phone1.png' class='phone' ></image>
 </view>

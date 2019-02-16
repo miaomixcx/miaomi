@@ -21,7 +21,7 @@
         <text wx:for="{{item.children}}" wx:for-item="child" wx:for-index="childIndex" class='tx{{childIndex + 2}}' data-index="{{childIndex + 1}}" bindtap='navTab' class="{{navIndex === childIndex + 1 ? 'active' : ''}}">{{child.cn}}</text>
         <view class='main'>
           <view class='listOfPicAndText'>
-            <image class='picture' src='../../image/logo1.png'></image>
+            <image class='picture' src='../../image/logo1.png' bindtap='handleGoodsDetails'></image>
             <text class='tx1'>{{tx1}}</text>
             <text class='tx2'>{{tx2}}</text>
             <text class='tx3'>{{tx3}}</text>

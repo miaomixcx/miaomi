@@ -1,33 +1,33 @@
 {
   "pages": [
-    "pages/order/order",
+    "pages/begin/begin",
+    "pages/market/market",
+    
+    "pages/index/index",
+    
     "pages/writeAddress/writeAddress",
+    "pages/my/my",
+    "pages/confirmOrder/confirmOrder",
+    "pages/coupon/coupon",
+    "pages/shoppingCar/shoppingCar",
+    "pages/order/order",
     "pages/chooseDizhi/chooseDizhi",
     "pages/modifyDizhi/modifyDizhi",
     "pages/searchResult/searchResult",
     "pages/login/login",
     "pages/messageLogin/messageLogin",
-    "pages/confirmOrder/confirmOrder",
     "pages/orderDetail/orderDetail",
-    "pages/index/index",
-    
     "pages/invoice/invoice",
-    "pages/shoppingCar/shoppingCar",
     "pages/storeDetails/storeDetails",
     "pages/aboutUs/aboutUs",
-    
     "pages/goodsDetails/goodsDetails",
     
-    
-    "pages/market/market",
     "pages/sureOrder/sureOrder",
     "pages/chongzhi/chongzhi",
     "pages/addBeizhu/addBeizhu",
-    "pages/coupon/coupon",
     "pages/myParse/myParse",
     "pages/noInternet/noInternet",
     "pages/storeList/storeList",
-    "pages/my/my",
     "components/header/header",
     "pages/search/search",
     "components/search/search",
@@ -35,7 +35,6 @@
     "components/listOfPicAndTexts/listOfPicAndText",
     "components/banner/banner",
     "components/top/top"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
