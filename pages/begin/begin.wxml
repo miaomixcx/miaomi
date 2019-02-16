@@ -1,0 +1,28 @@
+<!--pages/begin/begin.wxml-->
+
+<!-- 调用position组件 -->
+
+<!-- <banner/> -->
+<!-- <search/> -->
+<!-- <top/> -->
+
+
+
+
+
+
+<position>
+  
+</position>
+<!-- <listOfPicAndText/> -->
+<view class='main main1'>
+  <image src='../../image/banner1.png' class='banner'></image>
+</view> 
+<view class='main'>
+  <image src='../../image/banner2.png' class='banner'></image>
+</view>  
+<view class='main'>
+  <image src='../../image/banner3.png' class='banner'></image>
+</view>  
+<view class='btn'>开始购物 ></view>
+

@@ -14,22 +14,22 @@
   <image class='card' src='../../image/my-card.png'></image>
 </view>
 <view class='main'>
-  <view class='parse'>
+  <view class='parse' bindtap='handleParse'>
     <image src='../../image/parse.png' class='parseLogo'></image>
     <text class='parseName'>钱包</text>
     <image src='../../image/right.png' class='parseRight'></image>
   </view>
-  <view class='tickets'>
+  <view class='tickets' bindtap='handleTickets'>
     <image src='../../image/tickets.png' class='parseLogo'></image>
     <text class='parseName'>优惠券</text>
     <image src='../../image/right.png' class='parseRight'></image>
   </view>
-  <view class='about'>
+  <view class='about' bindtap='handleUs'>
     <image src='../../image/about.png' class='parseLogo'></image>
     <text class='parseName'>关于我们</text>
     <image src='../../image/right.png' class='parseRight'></image>
   </view>
-  <view class='fapiao'>
+  <view class='fapiao' bindtap='handleFapiao'>
     <image src='../../image/fapiao.png' class='parseLogo'></image>
     <text class='parseName'>发票管理</text>
     <image src='../../image/right.png' class='parseRight'></image>
