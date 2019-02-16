@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/begin/begin",
+    "pages/market/market",
+    
     "pages/index/index",
     
     "pages/writeAddress/writeAddress",
@@ -19,7 +21,7 @@
     "pages/storeDetails/storeDetails",
     "pages/aboutUs/aboutUs",
     "pages/goodsDetails/goodsDetails",
-    "pages/market/market",
+    
     "pages/sureOrder/sureOrder",
     "pages/chongzhi/chongzhi",
     "pages/addBeizhu/addBeizhu",

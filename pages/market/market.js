@@ -124,5 +124,10 @@ Page({
     wx.navigateTo({
       url: '../shoppingCar/shoppingCar',
     })
+  },
+  handleGoodsDetails(){
+    wx.navigateTo({
+      url: '../goodsDetails/goodsDetails',
+    })
   }
 })

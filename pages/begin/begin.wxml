@@ -23,6 +23,6 @@
 </view>  
 <view class='main'>
   <image src='../../image/banner3.png' class='banner'></image>
-</view>  
-<view class='btn'>开始购物 ></view>
+</view>   
+<view class='btn' bindtap='handleGO'>开始购物 ></view>
 
