@@ -25,8 +25,8 @@ Page({
       success: function (res) {
         console.log(res)
         if (res.authSetting['scope.userInfo']) {
-          wx.switchTab({
-            url: '../index/index',
+          wx.redirectTo({
+            url: '../begin/begin',
           })
           wx.getUserInfo({
             success: function (res) {
@@ -72,8 +72,8 @@ Page({
       that.setData({
         isHide: false
       })
-      wx.switchTab({
-        url: '../index/index',
+      wx.redirectTo({
+        url: '../begin/begin',
       })
     } else {
       wx.showModal({

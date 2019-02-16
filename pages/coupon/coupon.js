@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    navbar: ["可使用", "已使用", "已失效"],
+    currentTab: 0,
     isHide:true
+  },
+  navbarTap: function (e) {
+    this.setData({
+      currentTab: e.currentTarget.dataset.idx
+    })
   },
 
   /**

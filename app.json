@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/coupon/coupon",
+    "pages/order/order",
     "pages/begin/begin",
     "pages/market/market",
     
@@ -8,13 +11,13 @@
     "pages/writeAddress/writeAddress",
     "pages/my/my",
     "pages/confirmOrder/confirmOrder",
-    "pages/coupon/coupon",
+    
     "pages/shoppingCar/shoppingCar",
-    "pages/order/order",
+    
     "pages/chooseDizhi/chooseDizhi",
     "pages/modifyDizhi/modifyDizhi",
     "pages/searchResult/searchResult",
-    "pages/login/login",
+    
     "pages/messageLogin/messageLogin",
     "pages/orderDetail/orderDetail",
     "pages/invoice/invoice",
